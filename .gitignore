@@ -2,3 +2,21 @@
 .DS_Store
 wp-config.php
 .htaccess
+
+
+#Ignore Admin and Includes Directories
+wp-admin/
+wp-includes/
+
+#Ignore Uploads, Upgrade, and Plugins Directories
+wp-content/uploads
+wp-content/upgrade
+wp-content/plugins
+
+#Ignore PHP and TXT files
+*.php
+*.txt
+*.htaccess
+
+#Don't ignore anything in theme file
+!wp-content/themes/my-theme/
