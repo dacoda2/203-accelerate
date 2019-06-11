@@ -190,7 +190,7 @@ input[type="button"],
 input[type="submit"] {
 	font: 700 1em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
 	color: #fff;
-	background: #333;
+	background: #45ac9d;
 	border: none;
 	padding: 1em 3.75em;
 	text-align: center;
@@ -214,7 +214,7 @@ body {
 	width: 100%;
 }
 #masthead {
-  background: none repeat scroll 0 0 #333;
+  background: none repeat scroll 0 0 #45ac9d;
   padding: .75em 0;
 }
 .page-header, .site-content, #navigation, .site-footer {
@@ -582,7 +582,7 @@ body {
 
 /* HOMEPAGE STYLES */
 .home-page {
-    background: url("img/hero-image.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
     height: auto;
     margin: 0 0 5em;
     padding: 8em 0;
@@ -605,7 +605,7 @@ body {
 .button {
     font: 700 1em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
     color: #fff;
-	background: #333;
+	background: #45ac9d;
     padding: 1em 3.75em;
     text-align: center;
 }
@@ -708,3 +708,4 @@ a.button, a.button:link {
 		display: inline;
 	}
 }
+

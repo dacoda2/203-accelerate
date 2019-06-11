@@ -24,21 +24,23 @@ Text Domain:  accelerate-theme-child
 	background: #45ac9d;
  }
  
- .blog-post {
+ .blog-posts {
+	clear: left;
 	width: 50%;
 	float: left;
 	margin-bottom: 2em;
 }
 
-.blog-post h4 {
+.blog-posts h4 {
+	
   font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
   color: #a6a6a6;
   text-transform: uppercase;
   margin: 2em 0 .5em;
 }
 
-.blog-post h3 {
-	font-size: 1.5em;
+.blog-posts h3 {
+	font-size:1.5em;
 }
 
 .read-more-link {
@@ -47,3 +49,113 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/* Case Studies */
+aside.case-study-sidebar {
+	float:left;
+	width:300px;
+
+	padding: 1em;
+}
+div.case-study-images {
+	float:left;
+	width:600px;
+	padding-top: 20px;
+	margin-top: 3em;
+}
+
+/*Front-page case studies */
+.featured-work h4 {
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: black;
+  text-transform: uppercase;
+	text-align: center;
+}
+
+.featured-work ul{
+	list-style: none;	
+}
+
+.featured-work li{
+	float:left;
+	margin:0 5px;
+	}
+
+	/*Case-studies archive page 
+.case-study{
+	width: 1200px;
+	margin: 0 auto;
+}
+.case-study-sidebar{
+display: block;
+}
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+*/
+body.post-type-archive-case_studies article.case-study {
+	margin-top: 60px;
+	float:left;
+}
+
+body.post-type-archive-case_studies aside.case-study-sidebar {
+	width:40%;
+}
+body.post-type-archive-case_studies aside.case-study-sidebar h2 {
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	font-weight: 400;
+	font-size: 28px;
+}
+
+body.post-type-archive-case_studies aside.case-study-sidebar h4 {
+	font-weight: 400;
+	font-size: 16px;
+	color:grey;
+}
+body.post-type-archive-case_studies aside.case-study-sidebar p {
+	margin-top: 24px;
+	font-size: 16px;
+	height:100px;	
+	}
+
+body.post-type-archive-case_studies div.case-study-images {
+	width: 55%;
+	margin-bottom: 30px;
+	margin-left:20px;
+}
+.visit-project-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* Footer Social Nav*/
+
+
+.social-media-navigation ul {
+	margin: 0;
+	list-style: none;
+	display: inline;
+}
+
+.social-media-navigation ul li{
+	display: inline;
+	width: 24px;
+	height: 24px;
+}
+
+.social-media-navigation i.fa {
+	color: #fff;
+	background-color: #43464B;
+	margin-left: 4px;
+	padding:4px;
+	border-radius: 50%;
+	width:35px;
+	height: 35px;
+	text-align: center;
+	}
+
+

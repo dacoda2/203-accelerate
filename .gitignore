@@ -13,6 +13,7 @@ wp-content/uploads
 wp-content/upgrade
 wp-content/plugins
 
+
 #Ignore PHP and TXT files
 *.php
 *.txt
