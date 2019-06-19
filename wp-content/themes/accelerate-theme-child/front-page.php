@@ -39,7 +39,7 @@ get_header(); ?>
 						<figure> 
 							<?php echo wp_get_attachment_image($image_1, $size)?>
 						</figure>
-						<h3><a href="<?php the_permalink(); ?>"<?php the_title(); ?></a></h3>
+						<h3><a href="<?php the_permalink(); ?>"<?php the_title(); ?>></a></h3>
 					</li>
 
 				<?php endwhile; ?>
@@ -59,6 +59,17 @@ get_header(); ?>
        				<?php the_excerpt(); ?> 
 				<?php endwhile; ?>
 			<?php wp_reset_query(); ?>
+		</div>
+
+		<div class="indiv-twitter-feed">
+			<h4>Recent tweet</h4>
+			<a href="https://twitter.com/integralwebdev"><h3>@integralwebdev</h3></a>
+			<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+				<div id="secondary" class="widget-area" role="complementary">
+					<?php dynamic_sidebar( 'sidebar-2' ); ?>
+				</div>
+				<a href="https://twitter.com/integralwebdev"><span id="follow-link">Follow us ></span></a>
+			<?php endif; ?>
 		</div>
 	</div>
 </section>

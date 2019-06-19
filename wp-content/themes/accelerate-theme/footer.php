@@ -32,5 +32,5 @@
 </body>
 </html>
 <?php if ( function_exists('cn_social_icon') ) echo cn_social_icon(); ?>
-Advanced Use
+
 

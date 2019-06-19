@@ -24,11 +24,13 @@ Text Domain:  accelerate-theme-child
 	background: #45ac9d;
  }
  
- .blog-posts {
-	clear: left;
+ /* Recent-post on home page */
+ .blog-posts {	
 	width: 50%;
 	float: left;
 	margin-bottom: 2em;
+	padding-right: 50px;
+	text-align: justify;
 }
 
 .blog-posts h4 {
@@ -67,8 +69,8 @@ div.case-study-images {
 /*Front-page case studies */
 .featured-work h4 {
 	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-  color: black;
-  text-transform: uppercase;
+  	color: black;
+  	text-transform: uppercase;
 	text-align: center;
 }
 
@@ -81,20 +83,8 @@ div.case-study-images {
 	margin:0 5px;
 	}
 
-	/*Case-studies archive page 
-.case-study{
-	width: 1200px;
-	margin: 0 auto;
-}
-.case-study-sidebar{
-display: block;
-}
+	/*Case-studies archive page */
 
-div.case-study-images img {
-	width: 100%;
-	height: auto;
-}
-*/
 body.post-type-archive-case_studies article.case-study {
 	margin-top: 60px;
 	float:left;
@@ -133,8 +123,6 @@ body.post-type-archive-case_studies div.case-study-images {
 }
 
 /* Footer Social Nav*/
-
-
 .social-media-navigation ul {
 	margin: 0;
 	list-style: none;
@@ -159,3 +147,169 @@ body.post-type-archive-case_studies div.case-study-images {
 	}
 
 
+/* Ninja Contact form*/
+#nf-field-4 {
+	background-color:#45ac9d;
+	float:right;
+	padding:0 40px;
+	text-transform: uppercase;
+}
+.nf-wrapper {
+width:60%;
+margin: auto;
+}
+
+/*Front-page Services */
+
+.our-services h3 {
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  	color:black;
+  	text-transform: uppercase;
+	text-align: center;
+	}
+.our-services p {
+  color:black;
+  	text-align: center;
+}
+
+.service-content p {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 1.4em;
+    font-weight: normal;
+	margin: 0 auto;
+	max-width:550px;
+	text-align: center;	
+}
+
+
+ul.list-services {
+	list-style-type: none;
+	width: 900px;	
+}
+li.individual-service {
+	overflow:auto;
+	padding: 10px;
+	text-align: left;	
+}
+
+ul li:nth-child(even)>div.individual-service-description {
+	float: left;
+	width: 500px;		
+	padding-bottom:10px;
+	height: auto;
+}
+ul li:nth-child(even)>div.individual-service-image {
+	float: right;
+	width: 300px;
+	padding-top: 50px;
+	text-align: right;	
+}
+ul li:nth-child(odd)>div.individual-service-description {
+	float: right;
+	width: 500px;		
+	padding-bottom:10px;
+	height: auto;
+	
+}
+ul li:nth-child(odd)>div.individual-service-image {
+	float: left;
+	width: 300px;
+	padding-top: 40px;
+	text-align: left;	
+}
+
+.invite {
+	text-align: center;
+	border-top: 1px solid #bfbfbf;
+	height:150px;
+}
+
+
+.invite h3{
+	padding-top:40px;
+	text-align: center;
+	display: inline-block;
+	margin-right:40px;
+}
+
+.invite a{	
+	text-align: center;	
+}
+
+/*404 */
+#container-404 {
+	background: #ffff04;
+
+	width:100%;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	padding-bottom: 40px;
+}
+
+#dohimg{
+width: 50%;
+}
+
+#foh p{
+	font-family: 'Gochi Hand', cursive;
+	font-size: 6em;
+	letter-spacing:6px;
+	font-weight: bolder;
+	color:#45ac9d;
+	margin: 10px;	
+	padding:10px;
+
+}
+
+#homergif{
+	text-align: center;
+	}
+
+.homergif_text p{
+	font-family: 'Gochi Hand', cursive;
+	text-align: center;
+	font-size: 2em;
+}
+
+
+/* twitter feed */
+.indiv-twitter-feed {	
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+	padding-left: 20px;
+}
+
+.indiv-twitter-feed h4 {
+	
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	color: #a6a6a6;
+	text-transform: uppercase;
+	
+}
+
+.indiv-twitter-feed h3 {
+	font-size:1.5em;
+	
+}
+
+#follow-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+
+/* Mailchimp Newsletter widget */
+
+aside#mc4wp_form_widget-2{	
+	border-bottom:1px solid #bfbfbf;
+}
+div.mc4wp-form-fields p{
+vertical-align: middle;
+font-size: .875em;
+font-weight: 600;
+}
